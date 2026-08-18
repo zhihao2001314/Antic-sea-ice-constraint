@@ -1,5 +1,9 @@
 *.nc
 *.csv
-input/
-output/
+input/*
+!input/.gitkeep
+!input/data_paths.json
+!input/README.md
+output/*
+!output/.gitkeep
 .vscode/
